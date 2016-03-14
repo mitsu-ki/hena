@@ -1,0 +1,22 @@
+{
+  "name": "my-react-boilerplate",
+  "version": "1.0.0",
+  "description": "my boilterplate using react and flux",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_PATH=src:test mocha --compilers js:babel-core/register -R dot -w test/ --recursive"
+  },
+  "author": "mitsu-ki",
+  "repository": "",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "*",
+    "sinon": "*",
+    "jsdom": "*",
+    "babel-core": "*",
+    "babel-preset-es2015": "*"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
+}
